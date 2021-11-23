@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 body {
@@ -477,4 +480,405 @@ section.room .room_box .box .intro p.big {
   section.home .head h1 {
     font-size: 14px;
   }
+}
+
+.refund {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40vh;
+}
+
+.refund .refund_box {
+  background: linear-gradient(
+    180deg,
+    #b771d0 0%,
+    #9961c7 19.39%,
+    #8255c0 39.89%,
+    rgba(82, 62, 178, 0.88) 60.1%,
+    rgba(54, 47, 170, 0.94) 79.74%,
+    #362faa 100%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.refund .refund_box h1 {
+  font-weight: 900;
+  font-size: 31px;
+  line-height: 41px;
+  color: #fff;
+  text-align: center;
+}
+
+.refund .refund_box .pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.refund .refund_box .pay .zero {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  width: 50%;
+  color: #fff;
+}
+
+.refund .refund_box .pay .zero .small {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.refund .refund_box .pay .zero .med {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 900;
+}
+
+.refund .refund_box .pay .zero .big {
+  font-weight: 900;
+  font-size: 220px;
+  line-height: 220px;
+}
+
+.receipe {
+    margin-bottom: 40px;
+}
+
+.receipe h1 {
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 41px;
+  text-align: center;
+  color: #800080;
+  margin-bottom: 20px;
+}
+
+.receipe .receipe_box {
+  background: conic-gradient(
+    from 0deg at 18.88% 37.5%,
+    rgba(128, 0, 128, 0.1) 0deg,
+    rgba(255, 255, 255, 0) 17.07deg,
+    rgba(128, 0, 128, 0.1) 73.32deg,
+    rgba(255, 255, 255, 0.25) 92.08deg,
+    rgba(128, 0, 128, 0.1) 157.7deg,
+    rgba(255, 255, 255, 0.25) 176.45deg,
+    rgba(128, 0, 128, 0.1) 232.7deg,
+    rgba(255, 255, 255, 0.25) 245.83deg,
+    rgba(128, 0, 128, 0.1) 290.83deg,
+    rgba(255, 255, 255, 0.25) 305.83deg,
+    rgba(128, 0, 128, 0.1) 353.87deg,
+    rgba(128, 0, 128, 0.1) 360deg
+  );
+  width: 70vw;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.receipe .receipe_box .image_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.receipe .receipe_box .image_box .image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.receipe .receipe_box .image_box .image img {
+  width: 90%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.receipe .receipe_box .pace {
+  width: 50%;
+}
+
+.receipe .receipe_box .pace .image_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: fit-content;
+}
+
+.receipe .receipe_box .pace .image_line::after {
+  content: "";
+  position: absolute;
+  left: calc(20% - 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 90%;
+  background: #000;
+  z-index: -1;
+}
+
+.receipe .receipe_box .pace .image_line .img_big,
+.receipe .receipe_box .pace .image_line .img_small {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.receipe .receipe_box .pace .image_line  p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #800080;
+}
+
+.receipe .receipe_box .pace .image_line .img_big p {
+    font-size: 22px;
+}
+
+.receipe .receipe_box .pace .image_line .img_small {
+  width: calc(80% - 20px);
+  gap: 40px;
+}
+
+.receipe .receipe_box .pace .image_line .img_small:last-child {
+  margin-bottom: 0;
+}
+
+.receipe .receipe_box .pace .image_line .img_big img {
+  width: 70px;
+  aspect-ratio: 1 / 1;
+  border-radius: 5px;
+}
+
+.receipe .receipe_box .pace .image_line .img_small img {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  border-radius: 5px;
+}
+
+.receipe .explore {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.receipe .explore button {
+  width: 30%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.035em;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  color: #800080;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+    .receipe h1 {
+        margin-bottom: 200px;
+    }
+
+    .receipe .receipe_box {
+        margin-bottom: 100px;
+    }
+
+    .receipe .receipe_box .image_box {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .receipe .receipe_box .pace {
+        width: 100%;
+        margin-top: 300px;
+    }
+
+    .receipe .receipe_box .image_box .image img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .receipe .explore {
+        position: absolute;
+        bottom: -65px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .receipe .explore button {
+        width: 100%;
+        border-radius: 10px;
+        color: #fff;
+        background: #800080;
+        border-radius: 10px;;
+    }
+}
+
+@media (max-width: 760px) {
+    .receipe h1 {
+        margin-bottom: 150px;
+    }
+    
+    .receipe .receipe_box .pace {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 560px) {
+    .receipe h1 {
+        margin-bottom: 100px;
+    }
+
+    .receipe .receipe_box .pace {
+        margin-top: 150px;
+    }
+
+    .receipe .receipe_box .pace .image_line .img_big,
+    .receipe .receipe_box .pace .image_line .img_small {
+        width: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+    .receipe h1 {
+        margin-bottom: 80px;
+        font-size: 24px;
+    }
+
+    .receipe .receipe_box .pace {
+        margin-top: 100px;
+    }
+
+}
+
+.know_more {
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.know_more button {
+    background: linear-gradient(90.07deg, #800080 -7.55%, rgba(128, 0, 128, 0.56) 30%, rgba(128, 0, 128, 0.56) 90.54%, rgba(128, 0, 128, 0.827607) 130.81%, rgba(128, 0, 128, 0) 130.83%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.25);
+}
+
+.know_more button .icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.know_more button p {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 520px) {
+    .know_more button  {
+        flex-direction: column;
+    }
+}
+
+.curriculum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.curriculum .curriculum_box {
+    width: 50vw;
+    background: #800080;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.curriculum .curriculum_box h1 {
+    font-size: 31px;
+    line-height: 41px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.curriculum .curriculum_box .sub {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .curriculum .curriculum_box {
+        background: transparent;
+        width: 90vw;
+    }
+
+    .curriculum .curriculum_box h1 {
+        color: #800080;
+        margin-bottom: 30px;
+    }
+
+    .curriculum .curriculum_box .sub {
+        background: #800080;
+        border-radius: 15px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .curriculum .curriculum_box .sub p {
+        width: 45%;
+    }
+}
+
+@media (max-width: 900px) {
+    .curriculum .curriculum_box .sub p {
+        font-size: 16px;
+    }
 }
