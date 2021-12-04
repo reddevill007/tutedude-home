@@ -375,6 +375,10 @@ section.room .room_box .box .intro p.big {
     margin-top: 70px;
   }
 
+  section.home h1 {
+    font-size: 14px;
+  }
+
   section.home .details {
     flex-direction: column-reverse;
   }
@@ -482,6 +486,10 @@ section.room .room_box .box .intro p.big {
 @media (max-width: 500px) {
   section.home .head h1 {
     font-size: 17px;
+  }
+
+  .main {
+    font-size: 18px;
   }
 }
 
