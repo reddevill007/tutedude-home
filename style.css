@@ -1205,7 +1205,7 @@ section.room .room_box .box .intro p.big {
   .other_courses {
     flex-direction: column;
     gap: 30px;
-    height: 110vh;
+    height: 115vh;
     justify-content: center;
   }
 
