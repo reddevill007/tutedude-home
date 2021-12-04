@@ -407,7 +407,7 @@ section.room .room_box .box .intro p.big {
   }
 
   section.home .details .course_details p {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 30px;
   }
 
@@ -481,7 +481,7 @@ section.room .room_box .box .intro p.big {
 
 @media (max-width: 500px) {
   section.home .head h1 {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
@@ -645,8 +645,7 @@ section.room .room_box .box .intro p.big {
 }
 
 .receipe .receipe_box .pace .image_line p {
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
   color: #800080;
 }
@@ -1206,7 +1205,7 @@ section.room .room_box .box .intro p.big {
   .other_courses {
     flex-direction: column;
     gap: 30px;
-    height: 100vh;
+    height: 110vh;
     justify-content: center;
   }
 
@@ -1288,6 +1287,19 @@ section.room .room_box .box .intro p.big {
   }
 }
 
+@media (max-width: 400px) {
+  .other_courses .other_box {
+    width: 300px;
+  }
+
+  .other_courses .other_box .semi, .other_courses .other_box .full {
+    width: 50px;
+    height: 50px;
+    right: -25px;
+    font-size: 15px;
+  }
+}
+
 .course_benifit {
   min-height: 100vh;
   width: 100%;
@@ -1349,7 +1361,7 @@ section.room .room_box .box .intro p.big {
   }
 
   .course_benifit .benifit_box .benifit {
-    width: 400px;
+    width: 90vw;
     height: 610px;
     background: linear-gradient(
       180deg,
