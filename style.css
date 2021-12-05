@@ -1210,13 +1210,34 @@ section.room .room_box .box .intro p.big {
 }
 
 @media (max-width: 1350px) {
+  .other_courses .other_box {
+    height: 200px;
+    width: 400px;
+  }
+/* 
+  .other_courses .hidden {
+    display: block;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: -10px 0;
+  }
+
+  .not_hidden {
+    display: none;
+    margin: 15px 0;
+  } */
+}
+
+@media (max-width: 1020px) {
   .other_courses {
     flex-direction: column;
     gap: 30px;
-    height: 125vh;
-    justify-content: center;
   }
-
+  
   .other_courses .hidden {
     display: block;
     color: #fff;
@@ -1235,6 +1256,13 @@ section.room .room_box .box .intro p.big {
 }
 
 @media (max-width: 620px) {
+  .other_courses {
+    flex-direction: column;
+    gap: 30px;
+    min-height: 125vh;
+    justify-content: center;
+  }
+  
   .project {
     display: flex;
     justify-content: center;
