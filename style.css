@@ -229,6 +229,10 @@ body {
   .signin .form_container .google h3 {
     font-size: 14px;
   }
+
+  .signin .form_container .already {
+    font-size: 14px;
+  }
 }
 
 nav {
