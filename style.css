@@ -225,6 +225,10 @@ body {
     right: 30px;
     top: 30px;
   }
+
+  .signin .form_container .google h3 {
+    font-size: 14px;
+  }
 }
 
 nav {
