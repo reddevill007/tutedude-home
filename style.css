@@ -29,11 +29,11 @@ body {
 
 .signin .form_container {
   width: 60vw;
-  height: 90vh;
+  height: fit-content;
   background: #fff;
   position: relative;
   border-radius: 50px;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   flex-direction: space-between;
