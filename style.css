@@ -12,6 +12,221 @@ body {
   overflow-x: hidden;
 }
 
+.signin {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #ffc0cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  transition: all .5 ease-in-out;
+}
+
+.signin .form_container {
+  width: 60vw;
+  height: 90vh;
+  background: #fff;
+  position: relative;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signin .form_container form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.signin .form_container form .check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 58%;
+}
+
+.signin .form_container form .check div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.signin .form_container form .check div input {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #800080;
+}
+
+.signin .form_container form .check div label {
+  line-height: 25px;
+  font-size: 16px;
+  text-align: center;
+  color: #800080;
+}
+
+.signin .form_container form .check a {
+  text-decoration: none;
+  color: #800080;
+}
+
+.signin .form_container form .textfeild {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .form_container form .textfeild input {
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+  outline: none;
+  border: 2px solid #800080;
+  border-radius: 10px;
+}
+
+.signin .form_container form .textfeild input::placeholder {
+  background: linear-gradient(
+    180deg,
+    #b771d0 0%,
+    #9961c7 19.39%,
+    #8255c0 39.89%,
+    rgba(82, 62, 178, 0.88) 60.1%,
+    rgba(54, 47, 170, 0.94) 79.74%,
+    #362faa 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.signin .form_container form .textfeild .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .form_container form button {
+  background: linear-gradient(180deg, #B771D0 0%, #9961C7 19.39%, #8255C0 39.89%, rgba(82, 62, 178, 0.88) 60.1%, rgba(54, 47, 170, 0.94) 79.74%, #362FAA 100%);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 40%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.signin .form_container .logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .form_container .logo img {
+  width: 200px;
+}
+
+.signin .form_container .google {
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #FDF9F9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(242, 242, 242, 0.5);
+  border-radius: 10px;
+}
+
+.signin .form_container .google h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #800080;
+}
+
+.signin .form_container .google img {
+  height: 30px;
+}
+
+.signin .form_container .already {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #800080;
+}
+
+.signin .form_container .already span {
+  cursor: pointer;
+}
+
+.signin .form_container .close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .signin .form_container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .signin .form_container form .check,
+  .signin .form_container form .textfeild {
+    width: 90%;
+  }
+
+  .signin .form_container form .check div input {
+    height: 20px;
+    width: 20px;
+  }
+
+  .signin .form_container form .check a,
+  .signin .form_container form .check div label {
+    font-size: 13px;
+  }
+
+  .signin .form_container form .textfeild input::placeholder {
+    font-size: 11px;
+  }
+
+  .signin .form_container .close {
+    right: 30px;
+    top: 30px;
+  }
+}
+
 nav {
   position: fixed;
   width: 100vw;
@@ -102,7 +317,7 @@ section.home {
   gap: 20px;
   align-items: center;
   flex-direction: column;
-  margin-top: 47px;
+  margin-top: 100px;
 }
 
 section.home .head {
@@ -1262,7 +1477,7 @@ section.room .room_box .box .intro p.big {
     min-height: 125vh;
     justify-content: center;
   }
-  
+
   .project {
     display: flex;
     justify-content: center;

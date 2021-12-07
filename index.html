@@ -11,6 +11,102 @@
 </head>
 
 <body>
+    <div class="signin login" id="form_box_log">
+        <div class="form_container">
+            <div class="logo">
+                <img src="logo.png" alt="image">
+            </div>
+            <div class="google">
+                <div class="gicon">
+                    <img src="glogo.png" alt="">
+                </div>
+                <h3>Google Sign In</h3>
+            </div>
+            <div class="or">
+                OR
+            </div>
+            <form action="">
+                <div class="textfeild">
+                    <input type="email" placeholder="Email" value="">
+                    <div class="icon">
+                        <img src="Vector.png" alt="">
+                    </div>
+                </div>
+                <div class="textfeild">
+                    <input type="password" placeholder="Password (min. 6 characters)" value="">
+                    <div class="icon">
+                        <img src="paas.png" alt="">
+                    </div>
+                </div>
+                <div class="check">
+                    <div>
+                        <input type="checkbox" name="log">
+                        <label for="log"> keep me Logged In</label>
+                    </div>
+                    <div class="forget">
+                        <a href="#">forgot Password?</a>
+                    </div>
+                </div>
+                <button type="submit">Log Up</button>
+            </form>
+            <div class="already">
+                New User? <span id="register">Register here </span>
+            </div>
+            <div class="close" id="close1">
+                <img src="cross.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="signin" id="form_box">
+        <div class="form_container">
+            <div class="logo">
+                <img src="logo.png" alt="image">
+            </div>
+            <div class="google">
+                <div class="gicon">
+                    <img src="glogo.png" alt="">
+                </div>
+                <h3>Sign Up with Google</h3>
+            </div>
+            <div class="or">
+                OR
+            </div>
+            <form action="">
+                <div class="textfeild">
+                    <input type="text" placeholder="Full Name" value="">
+                    <div class="icon">
+                        <img src="bx_bxs-user.png" alt="">
+                    </div>
+                </div>
+                <div class="textfeild">
+                    <input type="email" placeholder="Email" value="">
+                    <div class="icon">
+                        <img src="Vector.png" alt="">
+                    </div>
+                </div>
+                <div class="textfeild">
+                    <input type="password" placeholder="Password (min. 6 characters)" value="">
+                    <div class="icon">
+                        <img src="paas.png" alt="">
+                    </div>
+                </div>
+                <div class="textfeild">
+                    <input type="text" placeholder="Phone Number" value="">
+                    <div class="icon">
+                        <img src="num.png" alt="">
+                    </div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="already">
+                Already have an Account? <span id="already">Login</span>
+            </div>
+            <div class="close" id="close2">
+                <img src="cross.png" alt="">
+            </div>
+        </div>
+    </div>
+
     <nav>
         <div class="brand">
             <img src="logo.png" alt="logo">
@@ -24,8 +120,8 @@
             </ul>
         </div>
         <div id="login">
-            <button class="log">Login</button>
-            <button class="sign">Signup</button>
+            <button class="log" id="log">Login</button>
+            <button class="sign" id="sign">Signup</button>
             <div class="ham">
                 <i class="fas fa-bars"></i>
             </div>
