@@ -1,388 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tutedude</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="signin login" id="form_box_log">
-        <div class="form_container">
-            <div class="logo">
-                <img src="logo.png" alt="image">
-            </div>
-            <div class="google">
-                <div class="gicon">
-                    <img src="glogo.png" alt="">
-                </div>
-                <h3>Google Sign In</h3>
-            </div>
-            <div class="or">
-                OR
-            </div>
-            <form action="">
-                <div class="textfeild">
-                    <input type="email" placeholder="Email" value="">
-                    <div class="icon">
-                        <img src="Vector.png" alt="">
-                    </div>
-                </div>
-                <div class="textfeild">
-                    <input type="password" placeholder="Password (min. 6 characters)" value="">
-                    <div class="icon">
-                        <img src="paas.png" alt="">
-                    </div>
-                </div>
-                <div class="check">
-                    <div>
-                        <input type="checkbox" name="log">
-                        <label for="log"> keep me Logged In</label>
-                    </div>
-                    <div class="forget">
-                        <a href="#">forgot Password?</a>
-                    </div>
-                </div>
-                <button type="submit">Log Up</button>
-            </form>
-            <div class="already">
-                New User? <span id="register">Register here </span>
-            </div>
-            <div class="close" id="close1">
-                <img src="cross.png" alt="">
-            </div>
+      <div class="form_container">
+        <div class="logo">
+          <img src="logo.png" alt="image" />
         </div>
+        <div class="google">
+          <div class="gicon">
+            <img src="glogo.png" alt="" />
+          </div>
+          <h3>Google Sign In</h3>
+        </div>
+        <div class="or">OR</div>
+        <form action="">
+          <div class="textfeild">
+            <input type="email" placeholder="Email" value="" />
+            <div class="icon">
+              <img src="Vector.png" alt="" />
+            </div>
+          </div>
+          <div class="textfeild">
+            <input
+              type="password"
+              placeholder="Password (min. 6 characters)"
+              value=""
+            />
+            <div class="icon">
+              <img src="paas.png" alt="" />
+            </div>
+          </div>
+          <div class="check">
+            <div>
+              <input type="checkbox" name="log" />
+              <label for="log"> keep me Logged In</label>
+            </div>
+            <div class="forget">
+              <a href="#">forgot Password?</a>
+            </div>
+          </div>
+          <button type="submit">Log Up</button>
+        </form>
+        <div class="already">
+          New User? <span id="register">Register here </span>
+        </div>
+        <div class="close" id="close1">
+          <img src="cross.png" alt="" />
+        </div>
+      </div>
     </div>
     <div class="signin" id="form_box">
-        <div class="form_container">
-            <div class="logo">
-                <img src="logo.png" alt="image">
-            </div>
-            <div class="google">
-                <div class="gicon">
-                    <img src="glogo.png" alt="">
-                </div>
-                <h3>Sign Up with Google</h3>
-            </div>
-            <div class="or">
-                OR
-            </div>
-            <form action="">
-                <div class="textfeild">
-                    <input type="text" placeholder="Full Name" value="">
-                    <div class="icon">
-                        <img src="bx_bxs-user.png" alt="">
-                    </div>
-                </div>
-                <div class="textfeild">
-                    <input type="email" placeholder="Email" value="">
-                    <div class="icon">
-                        <img src="Vector.png" alt="">
-                    </div>
-                </div>
-                <div class="textfeild">
-                    <input type="password" placeholder="Password (min. 6 characters)" value="">
-                    <div class="icon">
-                        <img src="paas.png" alt="">
-                    </div>
-                </div>
-                <div class="textfeild">
-                    <input type="text" placeholder="Phone Number" value="">
-                    <div class="icon">
-                        <img src="num.png" alt="">
-                    </div>
-                </div>
-                <button type="submit">Sign Up</button>
-            </form>
-            <div class="already">
-                Already have an Account? <span id="already">Login</span>
-            </div>
-            <div class="close" id="close2">
-                <img src="cross.png" alt="">
-            </div>
+      <div class="form_container">
+        <div class="logo">
+          <img src="logo.png" alt="image" />
         </div>
+        <div class="google">
+          <div class="gicon">
+            <img src="glogo.png" alt="" />
+          </div>
+          <h3>Sign Up with Google</h3>
+        </div>
+        <div class="or">OR</div>
+        <form action="">
+          <div class="textfeild">
+            <input type="text" placeholder="Full Name" value="" />
+            <div class="icon">
+              <img src="bx_bxs-user.png" alt="" />
+            </div>
+          </div>
+          <div class="textfeild">
+            <input type="email" placeholder="Email" value="" />
+            <div class="icon">
+              <img src="Vector.png" alt="" />
+            </div>
+          </div>
+          <div class="textfeild">
+            <input
+              type="password"
+              placeholder="Password (min. 6 characters)"
+              value=""
+            />
+            <div class="icon">
+              <img src="paas.png" alt="" />
+            </div>
+          </div>
+          <div class="textfeild">
+            <input type="text" placeholder="Phone Number" value="" />
+            <div class="icon">
+              <img src="num.png" alt="" />
+            </div>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="already">
+          Already have an Account? <span id="already">Login</span>
+        </div>
+        <div class="close" id="close2">
+          <img src="cross.png" alt="" />
+        </div>
+      </div>
     </div>
 
     <nav>
-        <div class="brand">
-            <img src="logo.png" alt="logo">
+      <div class="brand">
+        <img src="logo.png" alt="logo" />
+      </div>
+      <div id="links">
+        <ul>
+          <li>explore programs</li>
+          <li>offers</li>
+          <li>money back advantage</li>
+          <li>about us</li>
+        </ul>
+      </div>
+      <div id="login">
+        <button class="log" id="log">Login</button>
+        <button class="sign" id="sign">Signup</button>
+        <div class="ham">
+          <i class="fas fa-bars"></i>
         </div>
-        <div id="links">
-            <ul>
-                <li>explore programs</li>
-                <li>offers</li>
-                <li>money back advantage</li>
-                <li>about us</li>
-            </ul>
-        </div>
-        <div id="login">
-            <button class="log" id="log">Login</button>
-            <button class="sign" id="sign">Signup</button>
-            <div class="ham">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
+      </div>
     </nav>
 
     <section class="home">
-        <div class="head">
-            <h1><i class="fas fa-star"></i> An IIT Delhi Alumuni Initiative</h1>
-            <div class="play">
-                <i class="fas fa-play"></i>
-            </div>
-            <div class="circle"></div>
+      <div class="head">
+        <h1><i class="fas fa-star"></i> An IIT Delhi Alumuni Initiative</h1>
+        <div class="play">
+          <i class="fas fa-play"></i>
         </div>
+        <div class="circle"></div>
+      </div>
 
-        <div class="details">
-            <div class="course_details">
-                <div class="course_name">
-                    <h1>Python</h1>
-                    <p><i class="fas fa-user-graduate"></i> 450+ learner enrolled</p>
-                </div>
-                <p>Build a strong foundation of python3, Learn Python for Data Science,AI, Machine Learning,GUI,and more
-                </p>
-                <div class="image_mob">
-                    <img src="img.jpg" alt="">
-                </div>
-                <p class="more">Course Rating : <b>4.6</b> <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></p>
-                <p class="price"><del>&#x20B9; 2399</del>&#x20B9; 699</p>
-                <button class="enroll">Enroll now</button>
-            </div>
-            <div class="image">
-                <img src="img.jpg" alt="">
-            </div>
+      <div class="details">
+        <div class="course_details">
+          <div class="course_name">
+            <h1>Python</h1>
+            <p><i class="fas fa-user-graduate"></i> 450+ learner enrolled</p>
+          </div>
+          <p>
+            Build a strong foundation of python3, Learn Python for Data
+            Science,AI, Machine Learning,GUI,and more
+          </p>
+          <div class="image_mob">
+            <img src="img.jpg" alt="" />
+          </div>
+          <p class="more">
+            Course Rating : <b>4.6</b> <i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ><i class="fas fa-star"></i><i class="fas fa-star-half"></i>
+          </p>
+          <p class="price"><del>&#x20B9; 2399</del>&#x20B9; 699</p>
+          <button class="enroll">Enroll now</button>
         </div>
+        <div class="image">
+          <img src="img.jpg" alt="" />
+        </div>
+      </div>
     </section>
 
     <section class="room">
-        <h1 class="main">Python's Wiggle Room</h1>
-        <div class="room_box">
-            <div class="box">
-                <div class="intro">
-                    <p class="big">2<sup>nd</sup></p>
-                    <p>most popular programming language</p>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-            </div>
-            <div class="box">
-                <div class="intro">
-                    <p class="big">2<sup>nd</sup></p>
-                    <p>most popular programming language</p>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-            </div>
-            <div class="box">
-                <div class="intro">
-                    <p class="big">2<sup>nd</sup></p>
-                    <p>most popular programming language</p>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-            </div>
-            <div class="box">
-                <div class="intro">
-                    <p class="big">2<sup>nd</sup></p>
-                    <p>most popular programming language</p>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-            </div>
+      <h1 class="main">Python's Wiggle Room</h1>
+      <div class="room_box">
+        <div class="box">
+          <div class="intro">
+            <p class="big">2<sup>nd</sup></p>
+            <p>most popular programming language</p>
+          </div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
         </div>
+        <div class="box">
+          <div class="intro">
+            <p class="big">2<sup>nd</sup></p>
+            <p>most popular programming language</p>
+          </div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </div>
+        <div class="box">
+          <div class="intro">
+            <p class="big">2<sup>nd</sup></p>
+            <p>most popular programming language</p>
+          </div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </div>
+        <div class="box">
+          <div class="intro">
+            <p class="big">2<sup>nd</sup></p>
+            <p>most popular programming language</p>
+          </div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+          </p>
+        </div>
+      </div>
     </section>
 
-    <!-- <section class="refund">
-        <div class="refund_box">
-            <h1>TuteDude Refund Advantage</h1>
-            <div class="pay">
-                <div class="zero">
-                    <div class="small">pay</div>
-                    <div class="med">&#x20B9;</div>
-                    <div class="big">0</div>
-                </div>
-                <div class="know">
-                    <p>You pay ZERO on complete Tutedude online certification course, become eligible for tutedude REFUND PROGRAMME, and get Tutedude Certified at the cost of <p class="bg">0 INR</p></p>
-                </div>
-            </div>
+    <section class="refund">
+      <div class="refund_box">
+        <div class="image">
+          <img src="pic1.jpg" alt="image" />
         </div>
-    </section> -->
+        <div class="details">
+          <h1>TuteDude Money Back Offer</h1>
+          <div class="text">
+            <span>avail</span>
+            <img src="hundred.png" alt="image" />
+            <h2>Money Back reward</h2>
+          </div>
+          <img src="pic1.jpg" alt="img" />
+          <p>
+            You pay ZERO on completing Tutedude online certification course,
+            become elligible for Tutedude REFUND PROGRAMME, and get Tutedude
+            Certified at the cost of 0 INR
+          </p>
+          <div class="btn">
+            <button>Know More</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="receipe">
-        <h1 class="main">The TuteDude receipe of success</h1>
-        <div class="receipe_box">
-            <div class="image_box">
-                <div class="image">
-                    <img src="img.jpg" alt="">
-                </div>
-                <div class="pace">
-                    <div class="image_line">
-                        <div class="img_big">
-                            <img src="img.jpg" alt="">
-                            <p>Learn at your own Pace</p>
-                        </div>
-                        <div class="img_small">
-                            <img src="img.jpg" alt="">
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        </div>
-                        <div class="img_small">
-                            <img src="img.jpg" alt="">
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        </div>
-                        <div class="img_small">
-                            <img src="img.jpg" alt="">
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        </div>
-                        <div class="img_small">
-                            <img src="img.jpg" alt="">
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        </div>
-                    </div>
-                </div>
+      <h1 class="main">The TuteDude receipe of success</h1>
+      <div class="receipe_box">
+        <div class="image_box">
+          <div class="image">
+            <img src="img.jpg" alt="" />
+          </div>
+          <div class="pace">
+            <div class="image_line">
+              <div class="img_big">
+                <img src="img.jpg" alt="" />
+                <p>Learn at your own Pace</p>
+              </div>
+              <div class="img_small">
+                <img src="img.jpg" alt="" />
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="img_small">
+                <img src="img.jpg" alt="" />
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="img_small">
+                <img src="img.jpg" alt="" />
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="img_small">
+                <img src="img.jpg" alt="" />
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
             </div>
-            <div class="explore">
-                <button>Explore Program</button>
-            </div>
+          </div>
         </div>
+        <div class="explore">
+          <button>Explore Program</button>
+        </div>
+      </div>
     </section>
 
     <section class="know_more">
-        <button>
-            <div class="icon">
-                <i class="fas fa-play"></i>
-            </div>
-            <p>Know About TuteDude</p>
-        </button>
+      <button>
+        <div class="icon">
+          <i class="fas fa-play"></i>
+        </div>
+        <p>Know About TuteDude</p>
+      </button>
     </section>
 
     <section class="curriculum">
-        <div class="curriculum_box">
-            <h1 class="main">Curriculum</h1>
-            <div class="sub">
-                <p><i class="fas fa-plus-square"></i> 31 sections</p>
-                <p><i class="fas fa-chalkboard-teacher"></i> 254 lectures</p>
-                <p><i class="far fa-clock"></i> 38 hr 51 min</p>
-                <p><i class="fas fa-calendar-day"></i> 8 weeks(approx)</p>
-            </div>
+      <div class="curriculum_box">
+        <h1 class="main">Curriculum</h1>
+        <div class="sub">
+          <p><i class="fas fa-plus-square"></i> 31 sections</p>
+          <p><i class="fas fa-chalkboard-teacher"></i> 254 lectures</p>
+          <p><i class="far fa-clock"></i> 38 hr 51 min</p>
+          <p><i class="fas fa-calendar-day"></i> 8 weeks(approx)</p>
         </div>
+      </div>
     </section>
 
     <section class="intro">
-        <div class="intro_box">
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+      <div class="intro_box">
+        <div class="left">
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para half">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para half">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para half">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para half">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
             </div>
-            <div class="para half">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque temporibus suscipit. Beatae, totam laudantium!</p>
-            </div>
+          </div>
         </div>
-        <div class="read">
-            <button>Read More</button>
+        <div class="right">
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
+          <div class="para_box">
+            <p class="para_there">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, et
+              autem harum cumque deserunt laudantium
+            </p>
+            <p class="para_show" id="para_show">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              eveniet?
+            </p>
+            <div class="expand" id="expand">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="read">
+        <button>Read More</button>
+      </div>
     </section>
 
     <section class="project">
-        <div class="project_box">
-            <div class="project_image">
-                <img src="img.jpg" alt="">
-            </div>
-            <div class="project_desc">
-                mention about any projects with some insights
-            </div>
+      <div class="project_box">
+        <div class="project_image">
+          <img src="img.jpg" alt="" />
         </div>
+        <div class="project_desc">
+          mention about any projects with some insights
+        </div>
+      </div>
     </section>
-    
+
     <section class="courses">
-        <h1 class="not_hidden main">Interested in our Other Courses too?</h1>
-        <div class="other_courses">
-            <h1 class="hidden main">Interested in our Other Courses too?</h1>
-            <div class="other_box">
-                <h1>Customized Pack</h1>
-                <div class="get_course">
-                    <p>Get all 20 courses @</p>
-                    <p class="price">
-                        <del>&#x20B9; 4444</del>
-                        <br>
-                        &#x20B9; 4444
-                    </p>
-                </div>
-                <p>88% student who enrolled in Python have availed this offer</p>
-                <div class="btn">
-                    <button>Know More</button>
-                </div>
-                <div class="semi"></div>
-                <div class="full">81%<br>off</div>
-            </div>
-            <div class="other_box">
-                <h1>Customized Pack</h1>
-                <div class="get_course">
-                    <p>Get all 20 courses @</p>
-                    <p class="price">
-                        <del>&#x20B9; 4444</del>
-                        <br>
-                        &#x20B9; 4444
-                    </p>
-                </div>
-                <p>88% student who enrolled in Python have availed this offer</p>
-                <div class="btn">
-                    <button>Know More</button>
-                </div>
-                <div class="semi"></div>
-                <div class="full">91%<br>off</div>
-            </div>
+      <h1 class="not_hidden main">Interested in our Other Courses too?</h1>
+      <div class="other_courses">
+        <h1 class="hidden main">Interested in our Other Courses too?</h1>
+        <div class="other_box">
+          <h1>Customized Pack</h1>
+          <div class="get_course">
+            <p>Get all 20 courses @</p>
+            <p class="price">
+              <del>&#x20B9; 4444</del>
+              <br />
+              &#x20B9; 4444
+            </p>
+          </div>
+          <p>88% student who enrolled in Python have availed this offer</p>
+          <div class="btn">
+            <button>Know More</button>
+          </div>
+          <div class="semi"></div>
+          <div class="full">81%<br />off</div>
         </div>
+        <div class="other_box">
+          <h1>Customized Pack</h1>
+          <div class="get_course">
+            <p>Get all 20 courses @</p>
+            <p class="price">
+              <del>&#x20B9; 4444</del>
+              <br />
+              &#x20B9; 4444
+            </p>
+          </div>
+          <p>88% student who enrolled in Python have availed this offer</p>
+          <div class="btn">
+            <button>Know More</button>
+          </div>
+          <div class="semi"></div>
+          <div class="full">91%<br />off</div>
+        </div>
+      </div>
     </section>
 
     <section class="course_benifit">
-        <h1 class="main">Course Benifits</h1>
-        <div class="benifit_box">
-            <div class="benifit"></div>
-            <div class="benifit hidden"></div>
-        </div>
+      <h1 class="main">Course Benifits</h1>
+      <div class="benifit_box">
+        <div class="benifit"></div>
+        <div class="benifit hidden"></div>
+      </div>
     </section>
 
     <section class="testimonial">
-        <h1 class="main">Hear, what others have to say</h1>
-        <!-- <div class="test_box">
+      <h1 class="main">Hear, what others have to say</h1>
+      <!-- <div class="test_box">
             <div class="test">
                 <div class="test_content">
                     <div class="img">
@@ -417,202 +673,437 @@
         <div class="navigator">
             <i class="fas fa-chevron-right"></i>
         </div> -->
-        <div class="hero">
-            <div class="review-box">
-                <div id="slide">
-                    <div class="card">
-                        <div class="profile">
-                            <img src="pic1.jpg" alt="">
-                            <div>
-                                <h3>Riley Olie</h3>
-                                <p>Web Designer</p>
-                            </div>
-                        </div>
-    
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolor fugiat doloribus
-                            exercitationem reprehenderit inventore consequatur. Repellat repellendus laboriosam amet
-                            adipisci. Laboriosam quasi voluptates recusandae quia, sed ab tempora dolor!</p>
-                    </div>
-                    <div class="card">
-                        <div class="profile">
-                            <img src="pic2.jpg" alt="">
-                            <div>
-                                <h3>Riley Olie</h3>
-                                <p>Web Designer</p>
-                            </div>
-                        </div>
-    
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolor fugiat doloribus
-                            exercitationem reprehenderit inventore consequatur. Repellat repellendus laboriosam amet
-                            adipisci. Laboriosam quasi voluptates recusandae quia, sed ab tempora dolor!</p>
-                    </div>
-                    <div class="card">
-                        <div class="profile">
-                            <img src="pic3.jpg" alt="">
-                            <div>
-                                <h3>Riley Olie</h3>
-                                <p>Web Designer</p>
-                            </div>
-                        </div>
-    
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolor fugiat doloribus
-                            exercitationem reprehenderit inventore consequatur. Repellat repellendus laboriosam amet
-                            adipisci. Laboriosam quasi voluptates recusandae quia, sed ab tempora dolor!</p>
-                    </div>
-                    <div class="card">
-                        <div class="profile">
-                            <img src="pic4.jpg" alt="">
-                            <div>
-                                <h3>Riley Olie</h3>
-                                <p>Web Designer</p>
-                            </div>
-                        </div>
-    
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolor fugiat doloribus
-                            exercitationem reprehenderit inventore consequatur. Repellat repellendus laboriosam amet
-                            adipisci. Laboriosam quasi voluptates recusandae quia, sed ab tempora dolor!</p>
-                    </div>
+      <div class="hero">
+        <div class="review-box">
+          <div id="slide">
+            <div class="card">
+              <div class="profile">
+                <img src="pic1.jpg" alt="" />
+                <div>
+                  <h3>Riley Olie</h3>
+                  <p>Web Designer</p>
                 </div>
-    
-                <div class="sidebar">
-                    <div id="up">
-                        <i class="fas fa-arrow-up"></i>
-                    </div>
-                    <div id="down">
-                        <i class="fas fa-arrow-down"></i>
-                    </div>
-                </div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus dolor fugiat doloribus exercitationem reprehenderit
+                inventore consequatur. Repellat repellendus laboriosam amet
+                adipisci. Laboriosam quasi voluptates recusandae quia, sed ab
+                tempora dolor!
+              </p>
             </div>
+            <div class="card">
+              <div class="profile">
+                <img src="pic2.jpg" alt="" />
+                <div>
+                  <h3>Riley Olie</h3>
+                  <p>Web Designer</p>
+                </div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus dolor fugiat doloribus exercitationem reprehenderit
+                inventore consequatur. Repellat repellendus laboriosam amet
+                adipisci. Laboriosam quasi voluptates recusandae quia, sed ab
+                tempora dolor!
+              </p>
+            </div>
+            <div class="card">
+              <div class="profile">
+                <img src="pic3.jpg" alt="" />
+                <div>
+                  <h3>Riley Olie</h3>
+                  <p>Web Designer</p>
+                </div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus dolor fugiat doloribus exercitationem reprehenderit
+                inventore consequatur. Repellat repellendus laboriosam amet
+                adipisci. Laboriosam quasi voluptates recusandae quia, sed ab
+                tempora dolor!
+              </p>
+            </div>
+            <div class="card">
+              <div class="profile">
+                <img src="pic4.jpg" alt="" />
+                <div>
+                  <h3>Riley Olie</h3>
+                  <p>Web Designer</p>
+                </div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellendus dolor fugiat doloribus exercitationem reprehenderit
+                inventore consequatur. Repellat repellendus laboriosam amet
+                adipisci. Laboriosam quasi voluptates recusandae quia, sed ab
+                tempora dolor!
+              </p>
+            </div>
+          </div>
+
+          <div class="sidebar">
+            <div id="up">
+              <i class="fas fa-arrow-up"></i>
+            </div>
+            <div id="down">
+              <i class="fas fa-arrow-down"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="this_course">
-        <h1 class="main">For whom is this course</h1>
-        <div class="catagory">
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
-            <div class="box">
-                <p>Students</p>
-            </div>
+      <h1 class="main">For whom is this course</h1>
+      <div class="catagory">
+        <div class="box">
+          <p>Students</p>
         </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+        <div class="box">
+          <p>Students</p>
+        </div>
+      </div>
     </section>
 
     <section class="about">
-        <h1 class="main">About this course</h1>
-        <div class="about_box">
-            <h2><i class="fas fa-star"></i> The Complete Python Course  :  Learn Python From Scratch</h2>
-            <p>Here Is What You Get By Enrolling In This Course:</p>
-            <div class="about_more">
-                <div class="circle">
-                    <div class="semi"></div>
-                </div>
-                <div class="rec"></div>
-            </div>
-            <div class="read">
-                <button>Read More</button>
-            </div>
+      <h1 class="main">About this course</h1>
+      <div class="about_box">
+        <h2>
+          <i class="fas fa-star"></i> The Complete Python Course : Learn Python
+          From Scratch
+        </h2>
+        <p>Here Is What You Get By Enrolling In This Course:</p>
+        <div class="about_more">
+          <div class="circle">
+            <div class="semi"></div>
+          </div>
+          <div class="rec"></div>
         </div>
+        <div class="read">
+          <button>Read More</button>
+        </div>
+      </div>
     </section>
 
     <section class="query">
-        <h1 class="main">Have Any Query?</h1>
-        <div class="query_box">
-            <div class="already_asked">
-                <div class="text">
-                    Already Asked Query
-                </div>
-                <div class="icon">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="already_asked">
-                <div class="text">
-                    Already Asked Query
-                </div>
-                <div class="icon">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="already_asked">
-                <div class="text">
-                    Already Asked Query
-                </div>
-                <div class="icon">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="already_asked">
-                <div class="text">
-                    Already Asked Query
-                </div>
-                <div class="icon">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
-            </div>
+      <h1 class="main">Have Any Query?</h1>
+      <div class="query_box">
+        <div class="already_asked">
+          <div class="text">Already Asked Query</div>
+          <div class="icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
         </div>
-        <div class="ask">
-            <input type="text" placeholder="type your query here">
-            <div class="search"><i class="fas fa-arrow-right"></i></div>
+        <div class="already_asked">
+          <div class="text">Already Asked Query</div>
+          <div class="icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
         </div>
+        <div class="already_asked">
+          <div class="text">Already Asked Query</div>
+          <div class="icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="already_asked">
+          <div class="text">Already Asked Query</div>
+          <div class="icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="ask">
+        <input type="text" placeholder="type your query here" />
+        <div class="search"><i class="fas fa-arrow-right"></i></div>
+      </div>
+    </section>
+
+    <section class="test">
+      <div class="container">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+        </div>
+      </div>
+      <div class="testimonials-carousel-wrap">
+        <div class="listing-carousel-button listing-carousel-button-next">
+          <i class="fa fa-caret-right" style="color: #fff"></i>
+        </div>
+        <div class="listing-carousel-button listing-carousel-button-prev">
+          <i class="fa fa-caret-left" style="color: #fff"></i>
+        </div>
+        <div class="testimonials-carousel">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testi-item">
+                  <div class="testi-avatar"><img src="pic4.jpg" /></div>
+                  <div class="testimonials-text-before">
+                    <i class="fa fa-quote-right"></i>
+                  </div>
+                  <div class="testimonials-text">
+                    <div class="listing-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </p>
+                    <a href="#" class="text-link"></a>
+                    <div class="testimonials-avatar">
+                      <h3>John Doe</h3>
+                      <h4>Owner</h4>
+                    </div>
+                  </div>
+                  <div class="testimonials-text-after">
+                    <i class="fa fa-quote-left"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!--second--->
+              <div class="swiper-slide">
+                <div class="testi-item">
+                  <div class="testi-avatar"><img src="pic3.jpg" /></div>
+                  <div class="testimonials-text-before">
+                    <i class="fa fa-quote-right"></i>
+                  </div>
+                  <div class="testimonials-text">
+                    <div class="listing-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </p>
+                    <a href="#" class="text-link"></a>
+                    <div class="testimonials-avatar">
+                      <h3>Doe Boe</h3>
+                      <h4>Director</h4>
+                    </div>
+                  </div>
+                  <div class="testimonials-text-after">
+                    <i class="fa fa-quote-left"></i>
+                  </div>
+                </div>
+              </div>
+              <!--third-->
+
+              <div class="swiper-slide">
+                <div class="testi-item">
+                  <div class="testi-avatar"><img src="pic2.jpg" /></div>
+                  <div class="testimonials-text-before">
+                    <i class="fa fa-quote-right"></i>
+                  </div>
+                  <div class="testimonials-text">
+                    <div class="listing-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </p>
+                    <a href="#" class="text-link"></a>
+                    <div class="testimonials-avatar">
+                      <h3>Boe Doe</h3>
+                      <h4>Developer</h4>
+                    </div>
+                  </div>
+                  <div class="testimonials-text-after">
+                    <i class="fa fa-quote-left"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!--fourth-->
+              <div class="swiper-slide">
+                <div class="testi-item">
+                  <div class="testi-avatar"><img src="pic1.jpg" /></div>
+                  <div class="testimonials-text-before">
+                    <i class="fa fa-quote-right"></i>
+                  </div>
+                  <div class="testimonials-text">
+                    <div class="listing-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book.
+                    </p>
+                    <a href="#" class="text-link"></a>
+                    <div class="testimonials-avatar">
+                      <h3>Doe John</h3>
+                      <h4>Designer</h4>
+                    </div>
+                  </div>
+                  <div class="testimonials-text-after">
+                    <i class="fa fa-quote-left"></i>
+                  </div>
+                </div>
+              </div>
+              <!--testi end-->
+            </div>
+          </div>
+        </div>
+
+        <div class="tc-pagination"></div>
+      </div>
     </section>
 
     <footer>
-        <div class="other_links">
-            <h2>Other Links</h2>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-            <li>Terms of Use</li>
-            <li>Refund Policy</li>
-        </div>
+      <div class="other_links">
+        <h2>Other Links</h2>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Use</li>
+        <li>Refund Policy</li>
+      </div>
 
-        <div class="social_links">
-            <h2>Social Links</h2>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
+      <div class="social_links">
+        <h2>Social Links</h2>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
 
-        <div class="other_links">
-            <h2>Other Links</h2>
-            <li>support@tutedude.com</li>
-            <li>+91  798-880-0474</li>
-        </div>
+      <div class="other_links">
+        <h2>Other Links</h2>
+        <li>support@tutedude.com</li>
+        <li>+91 798-880-0474</li>
+      </div>
 
-        <div class="other_links">
-            <h2>Registered Office</h2>
-            <li>1411/14 Indira Colony Hansi Hissar Hr 125033 <br> India<br>
-                Region : Hisar</li>
-        </div>
+      <div class="other_links">
+        <h2>Registered Office</h2>
+        <li>
+          1411/14 Indira Colony Hansi Hissar Hr 125033 <br />
+          India<br />
+          Region : Hisar
+        </li>
+      </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
-</body>
+    <script>
+      function initParadoxWay() {
+        "use strict";
 
+        if ($(".testimonials-carousel").length > 0) {
+          var j2 = new Swiper(".testimonials-carousel .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            grabCursor: true,
+            mousewheel: false,
+            centeredSlides: true,
+            pagination: {
+              el: ".tc-pagination",
+              clickable: true,
+              dynamicBullets: true,
+            },
+            navigation: {
+              nextEl: ".listing-carousel-button-next",
+              prevEl: ".listing-carousel-button-prev",
+            },
+            breakpoints: {
+              1024: {
+                slidesPerView: 3,
+              },
+            },
+          });
+        }
+
+        // bubbles -----------------
+
+        setInterval(function () {
+          var size = randomValue(sArray);
+          $(".bubbles").append(
+            '<div class="individual-bubble" style="left: ' +
+              randomValue(bArray) +
+              "px; width: " +
+              size +
+              "px; height:" +
+              size +
+              'px;"></div>'
+          );
+          $(".individual-bubble").animate(
+            {
+              bottom: "100%",
+              opacity: "-=0.7",
+            },
+            4000,
+            function () {
+              $(this).remove();
+            }
+          );
+        }, 350);
+      }
+
+      //   Init All ------------------
+      $(document).ready(function () {
+        initParadoxWay();
+      });
+    </script>
+  </body>
 </html>
