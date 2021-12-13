@@ -2476,6 +2476,7 @@ section.test{
 	background: #fcfcfd;
 	z-index: 1;
 	width: 100%;
+  overflow-x: hidden;
 }
 
 .section-title{
